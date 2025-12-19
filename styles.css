@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Arial, sans-serif;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: #7a0019;
+  color: white;
+}
+
+.logo{
+  width: 3rem;
+  margin-right: 1rem;
+}
+
+.container{
+  padding: 1rem;
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.gallery img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.footer{
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+  margin-top: 1rem;
+}
